@@ -1,6 +1,7 @@
 pyproject.toml
 setup.py
 src/locust_mcp/__init__.py
+src/locust_mcp/__main__.py
 src/locust_mcp/locust_generator.py
 src/locust_mcp/prompt_generator.py
 src/locust_mcp/server.py
