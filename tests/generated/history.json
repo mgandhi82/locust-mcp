@@ -1,0 +1,23 @@
+[
+  {
+    "id": "20250428_224001",
+    "timestamp": "2025-04-28T22:40:01.314549",
+    "description": "Test https://fake-json-api.mock.beeceptor.com API with 5 users: GET /users endpoint with 2 second think time between requests",
+    "script_path": "/Users/mgandhi/Documents/locust/locust-mcp/tests/generated/20250428_224001/locust_test_20250428_224001.py",
+    "config_path": "/Users/mgandhi/Documents/locust/locust-mcp/tests/generated/20250428_224001/config.json",
+    "config": {
+      "targetUrl": "https://fake-json-api.mock.beeceptor.com",
+      "endpoints": [
+        {
+          "method": "GET",
+          "path": "/users",
+          "data": null,
+          "weight": 1
+        }
+      ],
+      "users": 5,
+      "spawnRate": 1,
+      "runTime": "2s"
+    }
+  }
+]
