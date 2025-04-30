@@ -78,8 +78,7 @@ def generate_locust_script(params: Dict[str, Any]) -> str:
         "",
         f"class PerformanceTest(HttpUser):",
         f"    host = \"{target_url}\"",
-        # Use constant wait time when specified think time is present
-        f"    wait_time = between({think_time}, {think_time})",
+        f"    wait_time = between({think_time}, {think_time + 1})",
         ""
     ]
 
